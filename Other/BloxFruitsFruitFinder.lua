@@ -1,6 +1,3 @@
-_G.Fruit = "Chop Fruit" -- can be changed to the fruit you demand must be named like,"Spike Fruit" or "String Fruit"
-_G.EATFRUIT = true -- can be changed to false(NO CAPS) if you want the fruit to stay in its physical form also anti-afk script will activated and you will be teleported to a safe zone immediately
-_G.Team = 0 -- 0-1 you can choose to be Marines or Pirates it is defaulted to Marines
 _G.DelayTime = 12 -- This is required you cant possibly set it to zero the script wont work,it will be defaulted to 12 seconds(Recommended), you can change it to a higher value until the script works for you
 
 wait(_G.DelayTime)
