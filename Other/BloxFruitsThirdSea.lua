@@ -1,0 +1,1 @@
+loadstring(game:HttpGet('https://github.com/DookDekDEE/ALLFREE/raw/main/hyperx.lua'))()
