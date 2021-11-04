@@ -1,4 +1,5 @@
 -- Make sure you do a getgenv here.
+getgenv().InfiniteJump = true
 
 game:GetService("UserInputService").JumpRequest:connect(function()
     if InfiniteJump then
