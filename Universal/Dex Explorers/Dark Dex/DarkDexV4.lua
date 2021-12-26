@@ -1,9 +1,7 @@
 --[[
-	DEX Main Script
+	DEX Main Script V4
 	
 	Created by: Moon and Courtney
-	
-	RASPBERRY PI IS A SKIDDY SKID AF
 --]]
 
 -- Metas
