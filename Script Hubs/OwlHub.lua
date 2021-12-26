@@ -1,3 +1,5 @@
+-- Yes the legendary owl hub
+
 local old
 old = hookfunction(game.HttpGetAsync, function(inst, url, state)
   url = url:gsub('CriShoux', 'SiLeNSwOrD')
