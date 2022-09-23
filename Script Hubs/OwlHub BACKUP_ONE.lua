@@ -18,6 +18,8 @@ loadstring(game:HttpGet("https://github.com/SiLeNSwOrD/OwlHub/raw/master/OwlHub.
 
 -- Backup by SiLeNSwOrD got removed
 
+-- This is the 1st backup
+
 local old
 old = hookfunction(game.HttpGetAsync, function(inst, url, state)
   url = url:gsub('CriShoux', 'ZinityDrops/OwlHubFixed')
