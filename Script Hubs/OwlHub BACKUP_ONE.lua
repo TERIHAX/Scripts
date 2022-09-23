@@ -22,13 +22,13 @@ loadstring(game:HttpGet("https://github.com/SiLeNSwOrD/OwlHub/raw/master/OwlHub.
 
 local old
 old = hookfunction(game.HttpGetAsync, function(inst, url, state)
-  url = url:gsub('CriShoux', 'ZinityDrops/OwlHubFixed')
+  url = url:gsub('CriShoux/OwlHub', 'ZinityDrops/OwlHubFixed')
   return old(inst, url, state)
 end)
 
 local old2
 old2 = hookfunction(game.HttpGet, function(inst, url, state)
-  url = url:gsub('CriShoux', 'ZinityDrops/OwlHubFixed')
+  url = url:gsub('CriShoux/OwlHub', 'ZinityDrops/OwlHubFixed')
   return old2(inst, url, state)
 end)
 
