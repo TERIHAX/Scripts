@@ -29,4 +29,4 @@ And If You Use SE Hub on Mad City, There is a Ban Risk, And Pet Simulator X Has 
 ----------------------
 
 ## 3. Another way is to put `loadstring(game:HttpGet('` in front of your link and `'))()` at the end, like this:
-## `loadstring(game:HttpGet('YOUR LINK HERE'))()`
+### `loadstring(game:HttpGet('YOUR LINK HERE'))()`
