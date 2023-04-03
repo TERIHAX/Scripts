@@ -48,7 +48,7 @@ if response.StatusCode ~= 404 then
     local teleportFunc = queueonteleport or queue_on_teleport or syn and syn.queue_on_teleport
 
     if teleportFunc and game.PlaceId ~= 6403373529 then
-        teleportFunc([[]])
+        teleportFunc([[https://github.com/TERIHAX/Scripts/raw/main/Other/RogueHubMainLuaBackup.lua]])
     end
 
     -- If its not 404 why make another HTTP request?
