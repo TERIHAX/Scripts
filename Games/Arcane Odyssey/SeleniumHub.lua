@@ -9,3 +9,9 @@ loadstring(game:HttpGet('https://githubusercontent.com/synnyyy/synergy/raw/main/
 -- Pilgrammed
 -- Arcane Odyssey
 -- My Restaurant
+
+---------------
+
+--[[
+    To get key, you gotta go in the discord, verify in the verification channel, then authenticate in that same channel. then type /key in the commands channel.
+]]--
