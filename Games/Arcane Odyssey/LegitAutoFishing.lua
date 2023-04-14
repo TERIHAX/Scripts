@@ -13,7 +13,7 @@ local ToolActionRemote = ReplicatedStorage.RS.Remotes.Misc.ToolAction
 local AutoFish = true
 local LegitMode = true
 local PreventPull = false
-local CustomRodName = "Magnetic Wooden Rod"
+local CustomRodName = "Luring Bronze Rod"
 
 local function GetFishingRodTool(Parent)
     if Parent:FindFirstChild(CustomRodName) then
@@ -78,7 +78,7 @@ local Connection; Connection = Character.DescendantAdded:Connect(function(Descen
                 GetFishingRodTool(Backpack).Parent = Character
             end
             
-            task.wait(3)
+            task.wait(0.5)
             
             Character.HumanoidRootPart.Anchored = false
             
