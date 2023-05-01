@@ -1,16 +1,27 @@
 -- v2.4.1
+-- Modified to use backed up "AkaliNotif" if it returned a 404.
 
 --Made By sawnicskid#3706 and Coems Coder#3847
 --FIXING ELUDE
 warn("Bro dont skid credits, u can skid everything just dont skid credit ok?")
-local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local AkaliNotif = ""
+
+local HttpService = game:GetService("HttpService")
+local success, response = pcall(HttpService.GetAsync, HttpService, "https://github.com/Kinlei/Dynissimo/raw/main/Scripts/AkaliNotif.lua")
+
+if success and response.StatusCode == 404 then
+    AkaliNotif = loadstring(game:HttpGet('https://github.com/TERIHAX/Scripts/raw/main/Other/Script%20Storage/Backups/AkaliNotifBackup.lua', true))()
+else
+    AkaliNotif = loadstring(game:HttpGet("https://github.com/Kinlei/Dynissimo/raw/main/Scripts/AkaliNotif.lua", true))()
+end
+
 local Notify = AkaliNotif.Notify;
 Notify({
 Description = "You are in Latest version, if the entire script doesnt load, it means loading!";
 Title = "Successfully Executed Slapper Hub";
 Duration = 5;
 });
-local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Orion/main/source'))()
+local OrionLib = loadstring(game:HttpGet('https://github.com/shlexware/Orion/raw/main/source'))()
 local Window = OrionLib:MakeWindow({Name = "Slapper Hub v2.4.1", HidePremium = false,IntroText = "Made By Drip_SogusLegends", SaveConfig = false, ConfigFolder = "OrionTest"})
 local SBTab = Window:MakeTab({
 	Name = "Main Exploit",
