@@ -2,7 +2,7 @@
 
 --Made By sawnicskid#3706 and Coems Coder#3847
 --FIXING ELUDE
-print("Bro dont skid credits, u can skid everything just dont skid credit ok?")
+warn("Bro dont skid credits, u can skid everything just dont skid credit ok?")
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
 local Notify = AkaliNotif.Notify;
 Notify({
