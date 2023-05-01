@@ -34,3 +34,8 @@ And If You Use SE Hub on Mad City, There is a Ban Risk, And Pet Simulator X Has 
 ### `loadstring(game:HttpGet('YOUR LINK HERE', true))()`
 
 You **MUST** put `, true` after your link because it makes it directly retrieve it from the server and not from cache.
+
+----------------------
+
+## 4. This other way is probably better, put `loadstring(game:HttpGetAsync('` in front of your link and `'))()` at the end, like this:
+### `loadstring(game:HttpGetAsync('YOUR LINK HERE'))()`
