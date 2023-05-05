@@ -1,1 +1,1 @@
-loadstring(game:HttpGet('https://orbituniverse.com/spacehub'))()
+loadstring(game:HttpGet('https://orbituniverse.com/spacehub', true))()
