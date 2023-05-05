@@ -32,4 +32,4 @@ old2 = hookfunction(game.HttpGet, function(inst, url, state)
   return old2(inst, url, state)
 end)
 
-loadstring(game:HttpGet('https://github.com/ZinityDrops/OwlHubFixed/raw/master/OwlHub.txt'))()
+loadstring(game:HttpGet('https://github.com/ZinityDrops/OwlHubFixed/raw/master/OwlHub.txt', true))()
