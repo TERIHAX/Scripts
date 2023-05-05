@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://github.com/Cattoware/main/raw/main/loader.lua"))()
+loadstring(game:HttpGet('https://github.com/Cattoware/main/raw/main/loader.lua', true))()
