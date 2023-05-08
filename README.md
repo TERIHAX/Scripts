@@ -11,6 +11,8 @@ And Admin Scripts are [here](https://github.com/TERIHAX/Scripts/tree/main/Univer
 SE (Script Exodus) Hub is Not Made by Me, I Just Grouped Their Scripts Into a Hub.
 And If You Use SE Hub on Mad City, There is a Ban Risk, And Pet Simulator X Has Active Admins There.
 
+# YOU CAN MAKE PULL REQUESTS TO ADD NEW SCRIPTS, AND I WILL ACCEPT THEM
+
 -----------------------
 -----------------------
 
